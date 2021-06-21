@@ -5,7 +5,7 @@ html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     text-rendering: optimizelegibility;
-    font-size: 14px;
+    font-size: 16px;
     -webkit-font-smoothing: initial;
 }
 
@@ -78,4 +78,13 @@ h1 {
 
 .anchor span {
     color: #000;
+}
+
+#main>p {
+    text-indent: 2em
+}
+
+img {
+    margin: 0 auto;
+    display: block;
 }

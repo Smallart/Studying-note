@@ -25,7 +25,6 @@
             plugins: [
                 function(hook, vm) {
                     hook.beforeEach(function(countent) {
-                        console.log(countent);
                         return countent.replaceAll('[-[', "<i class='serif'>").replaceAll(']-]', "</i>")
                     });
                 }
